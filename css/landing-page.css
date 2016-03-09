@@ -1,0 +1,122 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+.intro-header{
+    padding-top:50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover; /*css3的背景大小属性*/
+}
+.intro-message{
+    padding-top: 20%;
+    padding-bottom: 20%;/*用padding可以拓展顶部高度*/
+}
+.intro-message>h1{
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+    color:whitesmoke;
+}
+.intro-message>h3{
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 1.5em;
+    color:whitesmoke;
+}
+hr{
+    width:400px;
+    border-top: 2px solid whitesmoke;
+}
+
+.intro-button-ul li a{
+    padding:8px 24px;
+    font-size:18px;
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+    .intro-button-ul li{
+        display:block;
+        margin-top:10px;
+    }
+    .intro-divider{
+        width:100%;
+    }
+    .Services-section-1{
+        margin-top:20px;
+    }
+    h1{
+        font-size:46px;
+    }
+    h4{
+        font-size:26px;
+    }
+    .banner-button-div>ul>li{
+        display:block;
+        margin-top:10px;
+    }
+}
+
+
+
+/*************services第一部分***************/
+.Services-section-1{
+    margin-top:100px;
+    background-color: #F8F8F8;
+    border-bottom:1px solid #E7E7E7 ;
+}
+.section-1-message>h1{
+    margin-top:50px;
+}
+.section-1-message>h4{
+    margin-top:30px;
+    font-weight: 200;
+    line-height: 26px;
+}
+.section-1-divider{
+    border-top:3px solid #E7E7E7;
+    margin-left:0;
+    width:200px;
+
+}
+
+
+/******************第二部分特有**********************/
+.Services-section-2{
+    background-color: #ffffff;
+}
+
+
+/*************banner******************/
+.banner{
+    background:url(../img/banner-bg.jpg) no-repeat center center;
+    margin-top: 50px;
+}
+.banner-message{
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.banner-message>h1{
+    color:#ffffff;
+}
+.banner-button-div>ul{
+    margin-top:84px;
+}
+
+.banner-button-div>ul>li>a{
+    padding:8px 24px;
+    font-size:20px;
+}
+
+.footer{
+    margin-top:30px;
+}
